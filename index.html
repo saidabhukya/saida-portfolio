@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of BHUKYA SAIDA NAIK - B.Tech Information Technology Student at Vignan University. Web developer, programmer, and tech enthusiast.">
+    <meta name="keywords" content="BHUKYA SAIDA NAIK, Portfolio, IT Student, Vignan University, Web Developer, Programmer, C, Java, Python, HTML, CSS, JavaScript, Data Structures">
+    <meta name="author" content="BHUKYA SAIDA NAIK">
+    <title>BHUKYA SAIDA NAIK | Personal Portfolio</title>
+    
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Main CSS StyleSheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========================================================= -->
+    <!-- NAVIGATION BAR                                            -->
+    <!-- ========================================================= -->
+    <header class="navbar-header" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-name">SAIDA NAIK</span>
+                <span class="logo-badge">IT Student</span>
+            </a>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+                    <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+                    <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+                    <li><a href="#projects" class="nav-link"><i class="fa-solid fa-folder-open"></i> Projects</a></li>
+                    <li><a href="#certifications" class="nav-link"><i class="fa-solid fa-certificate"></i> Certifications</a></li>
+                    <li><a href="#internships" class="nav-link"><i class="fa-solid fa-briefcase"></i> Internships</a></li>
+                    <li><a href="#achievements" class="nav-link"><i class="fa-solid fa-trophy"></i> Achievements</a></li>
+                    <li><a href="#objective" class="nav-link"><i class="fa-solid fa-bullseye"></i> Objective</a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Navbar Actions (Theme Toggle & Mobile Menu Toggle) -->
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark/Light Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========================================================= -->
+    <!-- 1. HOME SECTION                                           -->
+    <!-- EDIT HERE: Customize Name, Subtitle, Resume Link & Photo  -->
+    <!-- ========================================================= -->
+    <section class="home-section" id="home">
+        <div class="container home-container">
+            <div class="home-content">
+                <div class="badge-pill">
+                    <span class="pulse-dot"></span> Available for Learning & Projects
+                </div>
+                
+                <!-- EDIT HERE: Your Name -->
+                <h1 class="home-title">
+                    Hi, I'm <span class="highlight-text">BHUKYA SAIDA NAIK</span>
+                </h1>
+
+                <!-- EDIT HERE: Your Tagline / Role -->
+                <h2 class="home-subtitle">
+                    Information Technology Student | Web Developer | Programmer
+                </h2>
+
+                <!-- EDIT HERE: Your Short Bio -->
+                <p class="home-description">
+                    B.Tech 2nd Year student in Information Technology at <strong>Vignan University</strong>. 
+                    Passionate about programming in C, Java, Python, and creating clean, modern web applications.
+                </p>
+
+                <!-- Action Buttons -->
+                <div class="home-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fa-solid fa-briefcase"></i> View My Projects
+                    </a>
+                    
+                    <!-- EDIT HERE: Replace '#' with path to your resume PDF file e.g., 'resume.pdf' -->
+                    <a href="" id="download-resume-btn" class="btn btn-secondary">
+                        <i class="fa-solid fa-download"></i> Download Resume
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fa-solid fa-paper-plane"></i> Contact Me
+                    </a>
+                </div>
+
+                <!-- Quick Stats Badges -->
+                <div class="home-badges">
+                    <div class="stat-badge">
+                        <i class="fa-solid fa-university"></i>
+                        <span>Vignan University</span>
+                    </div>
+                    <div class="stat-badge">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <span>B.Tech IT (2nd Year)</span>
+                    </div>
+                    <div class="stat-badge">
+                        <i class="fa-solid fa-certificate"></i>
+                        <span>Diploma in CSE</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Profile Photo Container -->
+            <!-- EDIT HERE: Change 'images/profile.jpg' to your own photo image path -->
+            <div class="home-avatar-container">
+                <div class="avatar-wrapper">
+                    <img src="images/saida.jpeg" alt="BHUKYA SAIDA NAIK Profile Photo" class="avatar-img" id="profile-img">
+                    <div class="avatar-border-glow"></div>
+                    
+                    <!-- Floating info cards -->
+                    <div class="floating-card card-top">
+                        <i class="fa-solid fa-code text-accent"></i>
+                        <div>
+                            <strong>B.Tech IT</strong>
+                            <span>2nd Year Student</span>
+                        </div>
+                    </div>
+                    
+                    <div class="floating-card card-bottom">
+                        <i class="fa-solid fa-globe text-primary"></i>
+                        <div>
+                            <strong>Web Dev</strong>
+                            <span>HTML | CSS | JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 2. ABOUT ME SECTION                                       -->
+    <!-- EDIT HERE: Customize introduction & personal background   -->
+    <!-- ========================================================= -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Get To Know Me</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-grid">
+                <!-- Left Side Card -->
+                <div class="about-card-main">
+                    <div class="about-icon-circle">
+                        <i class="fa-solid fa-user-graduate"></i>
+                    </div>
+                    <h3>BHUKYA SAIDA NAIK</h3>
+                    <p class="about-role">Information Technology Student</p>
+                    <div class="about-tags">
+                        <span class="tag">B.Tech IT</span>
+                        <span class="tag">Diploma CSE</span>
+                        <span class="tag">Problem Solver</span>
+                    </div>
+                </div>
+
+                <!-- Right Side Bio Content -->
+                <div class="about-content">
+                    <h3 class="about-heading">A Dedicated Student Aspirant in IT & Software Development</h3>
+                    
+                    <!-- EDIT HERE: Your About Me Paragraphs -->
+                    <p class="about-text">
+                        Welcome to my portfolio! I am <strong>BHUKYA SAIDA NAIK</strong>, a 2nd-year B.Tech Information Technology student at <strong>Vignan University</strong>. My journey in technology started with a Diploma (Polytechnic) in Computer Science, which gave me strong core fundamentals in computing, programming, and software engineering.
+                    </p>
+
+                    <p class="about-text">
+                        I am deeply passionate about <strong>web development, programming, and exploring new technologies</strong>. I focus on developing clean logic, understanding Data Structures, and creating user-friendly web interfaces using HTML, CSS, and JavaScript, along with core languages like C, Java, and Python.
+                    </p>
+
+                    <p class="about-text">
+                        My career objective is to build a successful career in the IT/Software industry while keeping myself well-prepared for competitive government job opportunities. I believe in continuous learning, consistency, and hard work.
+                    </p>
+
+                    <!-- Details Grid -->
+                    <div class="about-details-grid">
+                        <div class="detail-item">
+                            <i class="fa-solid fa-graduation-cap detail-icon"></i>
+                            <div>
+                                <h4>Degree & Branch</h4>
+                                <p>B.Tech – Information Technology</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <i class="fa-solid fa-building-columns detail-icon"></i>
+                            <div>
+                                <h4>University</h4>
+                                <p>Vignan University</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <i class="fa-solid fa-award detail-icon"></i>
+                            <div>
+                                <h4>Prior Education</h4>
+                                <p>Diploma in Computer Science</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fa-solid fa-graduation-cap detail-icon"></i>
+                            <div>
+                                <h4>10th class (SCC)</h4>
+                                <P>completed at Zilla Parishad High School</P>
+                                <p>Marks:470</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <i class="fa-solid fa-envelope detail-icon"></i>
+                            <div>
+                                <h4>Email Address</h4>
+                                <!-- EDIT HERE: Email -->
+                                <p><a href="mailto:saidabhukya060@gmail.com">saidabhukya060@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 3. EDUCATION SECTION                                      -->
+    <!-- EDIT HERE: Add dates, CGPA/percentages, & college details -->
+    <!-- ========================================================= -->
+    <section class="section education-section" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">My Academic Journey</span>
+                <h2 class="section-title">Education</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="timeline">
+
+                <!-- Education Item 1: B.Tech -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="status-badge status-ongoing"><i class="fa-solid fa-spinner fa-spin-pulse"></i> Currently Studying</span>
+                            <!-- EDIT HERE: Add B.Tech start and end years (e.g., 2023 - 2027) -->
+                            <span class="timeline-date"><i class="fa-solid fa-calendar"></i> 2023 - Present (Editable)</span>
+                        </div>
+                        <h3 class="timeline-title">B.Tech – Information Technology</h3>
+                        <h4 class="timeline-subtitle"><i class="fa-solid fa-university"></i> Vignan University</h4>
+                        
+                        <!-- EDIT HERE: Add CGPA / Percentage -->
+                        <div class="academic-score">
+                            <i class="fa-solid fa-chart-line"></i> <strong>Current Status:</strong> B.Tech 2nd Year | <span>CGPA:--</span>
+                        </div>
+
+                        <p class="timeline-description">
+                            Currently pursuing 2nd year B.Tech in Information Technology. Gaining comprehensive theoretical and practical knowledge in programming, algorithms, database concepts, and modern web application design.
+                        </p>
+                        
+                        <div class="subjects-tags">
+                            <span>Data Structures</span>
+                            <span>Java Programming</span>
+                            <span>Python</span>
+                            <span>Web Technologies</span>
+                            <span>Database Systems</span>
+                            <span>Andriod Programming</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Item 2: Diploma -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"><i class="fa-solid fa-certificate"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="status-badge status-completed"><i class="fa-solid fa-circle-check"></i> Completed</span>
+                            <!-- EDIT HERE: Add Diploma start and end years (e.g., 2020 - 2023) -->
+                            <span class="timeline-date"><i class="fa-solid fa-calendar"></i> Completed (2026)</span>
+                        </div>
+                        <h3 class="timeline-title">Polytechnic / Diploma in Computer Science</h3>
+                        <h4 class="timeline-subtitle"><i class="fa-solid fa-school"></i> AANM & VVRSR POLYTECHNIC / SBTET</h4>
+                        
+                        <!-- EDIT HERE: Add Percentage / Marks -->
+                        <div class="academic-score">
+                            <i class="fa-solid fa-award"></i> <strong>Academic Result:</strong> Completed :2026 | <span>Percentage : 80%</span>
+                        </div>
+
+                        <p class="timeline-description">
+                            Successfully completed Diploma in Computer Science Engineering. Built a strong foundational foundation in C programming, Computer Hardware, Operating Systems, and basic Data Structures.
+                        </p>
+
+                        <div class="subjects-tags">
+                            <span>C Language</span>
+                            <span>Computer Networks</span>
+                            <span>Operating Systems</span>
+                            <span>HTML & CSS</span>
+                            <span>Cloud Computing</span>
+                            <span>Andriod Programming</span>
+                            <span>Data Base Management System</span>
+                            <span>Computer Organization And Microproessors</span>
+                            <span>Java</span>
+                            <span>Python</span>
+                            <span>Computer Networks & Cyber Security</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 4. TECHNICAL SKILLS SECTION                               -->
+    <!-- EDIT HERE: Modify skill proficiency levels & percentages   -->
+    <!-- ========================================================= -->
+    <section class="section skills-section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">What I Know</span>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle-text">Accurate beginner to intermediate skill indicators reflecting my current academic & practical knowledge.</p>
+            </div>
+
+            <div class="skills-grid">
+
+                <!-- Skill 1: C -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon icon-c">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">C Programming</h3>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                    </div>
+                    <p class="skill-desc">Strong fundamentals in logic, arrays, pointers, structures, and file handling.</p>
+                    <div class="progress-bar-container">
+                        <div class="progress-info">
+                            <span>Proficiency</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <!-- EDIT HERE: Adjust width percentage -->
+                            <div class="progress-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 2: Java -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon icon-java">
+                            <i class="fa-brands fa-java"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">Java</h3>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                    </div>
+                    <p class="skill-desc">Object-Oriented Programming (OOP) concepts, classes, inheritance, and exception handling.</p>
+                    <div class="progress-bar-container">
+                        <div class="progress-info">
+                            <span>Proficiency</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <!-- EDIT HERE: Adjust width percentage -->
+                            <div class="progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 3: Python -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon icon-python">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">Python</h3>
+                            <span class="skill-level">Beginner / Intermediate</span>
+                        </div>
+                    </div>
+                    <p class="skill-desc">Basic scripting, data types, control flow structures, and basic problem solving.</p>
+                    <div class="progress-bar-container">
+                        <div class="progress-info">
+                            <span>Proficiency</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <!-- EDIT HERE: Adjust width percentage -->
+                            <div class="progress-fill" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 4: HTML -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon icon-html">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">HTML5</h3>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                    </div>
+                    <p class="skill-desc">Semantic HTML structure, accessible elements, web forms, and document architecture.</p>
+                    <div class="progress-bar-container">
+                        <div class="progress-info">
+                            <span>Proficiency</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <!-- EDIT HERE: Adjust width percentage -->
+                            <div class="progress-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 5: CSS -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon icon-css">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">CSS3</h3>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                    </div>
+                    <p class="skill-desc">Flexbox, Grid layout, responsive web design, custom styling, and smooth animations.</p>
+                    <div class="progress-bar-container">
+                        <div class="progress-info">
+                            <span>Proficiency</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <!-- EDIT HERE: Adjust width percentage -->
+                            <div class="progress-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 6: JavaScript -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon icon-js">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">JavaScript</h3>
+                            <span class="skill-level">Beginner / Intermediate</span>
+                        </div>
+                    </div>
+                    <p class="skill-desc">DOM manipulation, event handling, ES6 syntax, functions, and interactive web features.</p>
+                    <div class="progress-bar-container">
+                        <div class="progress-info">
+                            <span>Proficiency</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <!-- EDIT HERE: Adjust width percentage -->
+                            <div class="progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- Skill 7: Data Structures -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon icon-ds">
+                            <i class="fa-solid fa-diagram-project"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">Data Structures</h3>
+                            <span class="skill-level">Beginner / Intermediate</span>
+                        </div>
+                    </div>
+                    <p class="skill-desc">Arrays, Linked Lists, Stacks, Queues, Basic Searching & Sorting Algorithms.</p>
+                    <div class="progress-bar-container">
+                        <div class="progress-info">
+                            <span>Proficiency</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <!-- EDIT HERE: Adjust width percentage -->
+                            <div class="progress-fill" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 5. PROJECTS SECTION                                       -->
+    <!-- EDIT HERE: Update Smart Agriculture project & placeholders-->
+    <!-- ========================================================= -->
+    <section class="section projects-section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">My Creative Works</span>
+                <h2 class="section-title">Projects</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- PROJECT 1: Smart Agriculture Investment Calculator -->
+                <div class="project-card featured-project">
+                    <div class="project-banner">
+                        <div class="project-banner-content">
+                            <i class="fa-solid fa-wheat-awn project-banner-icon"></i>
+                            <span class="project-badge">Featured Web Application</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-body">
+                        <h3 class="project-title">Smart Agriculture Investment Calculator</h3>
+                        
+                        <p class="project-description">
+                            A web-based application designed to help farmers estimate yearly farming expenses and calculate total agricultural investment accurately.
+                        </p>
+
+                        <div class="project-features-box">
+                            <h4><i class="fa-solid fa-list-check"></i> Key Features:</h4>
+                            <ul class="feature-list">
+                                <li><i class="fa-solid fa-check"></i> Crop selection</li>
+                                <li><i class="fa-solid fa-check"></i> Field type selection</li>
+                                <li><i class="fa-solid fa-check"></i> Expense tracking</li>
+                                <li><i class="fa-solid fa-check"></i> Farming expense calculation</li>
+                                <li><i class="fa-solid fa-check"></i> Total investment calculation</li>
+                                <li><i class="fa-solid fa-check"></i> Simple and user-friendly interface</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+
+                        <div class="project-actions">
+                            <button class="btn btn-primary btn-sm" onclick="openAgriCalculatorModal()">
+                                <i class="fa-solid fa-calculator"></i> Try Live Calculator
+                            </button>
+                            <!-- EDIT HERE: Add your GitHub project repository link -->
+                            <a href="https://saidabhukya.github.io/agricultre-investment-calculator/" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                                <i class="fa-brands fa-github"></i> View Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 2: Coming Soon Placeholder 1 -->
+                <!-- EDIT HERE: Replace this card when you build your second project -->
+                <div class="project-card placeholder-project">
+                    <div class="project-banner placeholder-banner">
+                        <div class="project-banner-content">
+                            <i class="fa-solid fa-hourglass-half project-banner-icon"></i>
+                            <span class="project-badge status-upcoming">Coming Soon</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-body">
+                        <h3 class="project-title">Project 2 – Coming Soon</h3>
+                        
+                        <p class="project-description">
+                            Reserved placeholder for an upcoming Web Development or Python programming project.
+                        </p>
+
+                        <div class="project-features-box">
+                            <h4><i class="fa-solid fa-clock"></i> Future Updates:</h4>
+                            <ul class="feature-list">
+                                <li><i class="fa-regular fa-clock"></i> Project title to be added</li>
+                                <li><i class="fa-regular fa-clock"></i> Key features & screenshots</li>
+                                <li><i class="fa-regular fa-clock"></i> Live demo link</li>
+                                <li><i class="fa-regular fa-clock"></i> GitHub repository link</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech-stack">
+                            <span class="tech-tag tech-placeholder">HTML / CSS / JS</span>
+                            <span class="tech-tag tech-placeholder">Python</span>
+                        </div>
+
+                        <div class="project-actions">
+                            <button class="btn btn-disabled btn-sm" disabled>
+                                <i class="fa-solid fa-lock"></i> Details Coming Soon
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 3: Coming Soon Placeholder 2 -->
+                <!-- EDIT HERE: Replace this card when you build your third project -->
+                <div class="project-card placeholder-project">
+                    <div class="project-banner placeholder-banner">
+                        <div class="project-banner-content">
+                            <i class="fa-solid fa-layer-group project-banner-icon"></i>
+                            <span class="project-badge status-upcoming">Coming Soon</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-body">
+                        <h3 class="project-title">Project 3 – Coming Soon</h3>
+                        
+                        <p class="project-description">
+                            Reserved placeholder for a Data Structures application or academic mini-project.
+                        </p>
+
+                        <div class="project-features-box">
+                            <h4><i class="fa-solid fa-clock"></i> Future Updates:</h4>
+                            <ul class="feature-list">
+                                <li><i class="fa-regular fa-clock"></i> Project description</li>
+                                <li><i class="fa-regular fa-clock"></i> Algorithms & data structures used</li>
+                                <li><i class="fa-regular fa-clock"></i> Code documentation</li>
+                                <li><i class="fa-regular fa-clock"></i> Interactive demonstration</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech-stack">
+                            <span class="tech-tag tech-placeholder">Java / C</span>
+                            <span class="tech-tag tech-placeholder">Data Structures</span>
+                        </div>
+
+                        <div class="project-actions">
+                            <button class="btn btn-disabled btn-sm" disabled>
+                                <i class="fa-solid fa-lock"></i> Details Coming Soon
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 6. CERTIFICATIONS SECTION                                 -->
+    <!-- EDIT HERE: Add Certificate Name, Platform, Date, and Link -->
+    <!-- ========================================================= -->
+    <section class="section certifications-section" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Verified Qualifications</span>
+                <h2 class="section-title">Certifications</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle-text">Professional Certificate And Courses Completed During My Acadamic Journey</p>
+            </div>
+
+            <div class="certifications-grid">
+
+                <!-- CERTIFICATE CARD 1 -->
+                <!-- EDIT HERE: Change details below -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <div class="cert-content">
+                        <!-- EDIT: Certificate Name -->
+                        <h3 class="cert-name">Cloud Computing</h3>
+                        <!-- EDIT: Platform / Organization -->
+                        <p class="cert-issuer"><i class="fa-solid fa-building"></i> Organization Name :Prahan SoftPvt.Ltd</p>
+                        <!-- EDIT: Date -->
+                        <p class="cert-date"><i class="fa-solid fa-calendar-day"></i> Issued: November 24,2025  <br>May 23,2026</p>
+                        <!-- EDIT: Certificate Link -->
+                        <a href="images/cloud computing.jpeg" target="_blank" rel="noopener" class="cert-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CERTIFICATE CARD 2 -->
+                <!-- EDIT HERE: Change details below -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <div class="cert-content">
+                        <!-- EDIT: Certificate Name -->
+                        <h3 class="cert-name">Programming in Python / Java</h3>
+                        <!-- EDIT: Platform / Organization -->
+                        <p class="cert-issuer"><i class="fa-solid fa-building"></i> Platform / Organization (Editable)</p>
+                        <!-- EDIT: Date -->
+                        <p class="cert-date"><i class="fa-solid fa-calendar-day"></i> Issued: Month Year (Editable)</p>
+                        <!-- EDIT: Certificate Link -->
+                        <a href="https://example.com/certificate-link" target="_blank" rel="noopener" class="cert-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CERTIFICATE CARD 3 -->
+                <!-- EDIT HERE: Change details below -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="cert-content">
+                        <!-- EDIT: Certificate Name -->
+                        <h3 class="cert-name">Data Structures Course</h3>
+                        <!-- EDIT: Platform / Organization -->
+                        <p class="cert-issuer"><i class="fa-solid fa-building"></i> Platform / Organization (Editable)</p>
+                        <!-- EDIT: Date -->
+                        <p class="cert-date"><i class="fa-solid fa-calendar-day"></i> Issued: Month Year (Editable)</p>
+                        <!-- EDIT: Certificate Link -->
+                        <a href="https://example.com/certificate-link" target="_blank" rel="noopener" class="cert-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 7. INTERNSHIPS SECTION                                    -->
+    <!-- EDIT HERE: Add Company, Role, Duration, Description, Link -->
+    <!-- ========================================================= -->
+    <section class="section internships-section" id="internships">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Practical Experience</span>
+                <h2 class="section-title">Internships</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Editable Internship Card Container -->
+            <!-- EDIT HERE: Update below fields when internship details are available -->
+            <div class="internship-card-wrapper">
+                <div class="internship-card">
+                    <div class="internship-header">
+                        <div class="internship-icon">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="internship-title-box">
+                            <!-- EDIT: Role -->
+                            <h3 class="internship-role">Cloud Computing</h3>
+                            <!-- EDIT: Company -->
+                            <h4 class="internship-company"><i class="fa-solid fa-building"></i>Organization Name:Prahansoft pvt.Ltd</h4>
+                        </div>
+                        <div class="internship-meta">
+                            <!-- EDIT: Duration -->
+                            <span class="internship-duration"><i class="fa-solid fa-calendar"></i> Duration: Nov 2025-May2026</span>
+                        </div>
+                    </div>
+
+                    <div class="internship-body">
+                        <!-- EDIT: Description -->
+                        <p class="internship-description">
+                            Successfully completed a 6-month Cloud Computing course at Prahansoft Pvt Ltd. Gained hands-on knowledge of core cloud infrastructure, deployment models, virtual servers, storage management, and cloud architecture fundamentals.
+                        </p>
+
+                    <div class="internship-footer">
+                        <!-- EDIT: Certificate Link -->
+                        <a href="images/cloud computing.jpeg" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                            <i class="fa-solid fa-file-contract"></i> View Internship Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 8. ACHIEVEMENTS SECTION                                   -->
+    <!-- EDIT HERE: Add your academic & extracurricular achievements-->
+    <!-- ========================================================= -->
+    <section class="section achievements-section" id="achievements">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Milestones</span>
+                <h2 class="section-title">Achievements</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="achievements-grid">
+
+                <!-- ACHIEVEMENT CARD 1 -->
+                <!-- EDIT HERE: Change details below -->
+                <div class="achievement-card">
+                    <div class="achievement-icon-box">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Completed Polytechnic Diploma</h3>
+                        <p class="achievement-desc">
+                            Successfully completed Polytechnic/Diploma in Computer Science Engineering with strong foundational knowledge before pursuing B.Tech.
+                        </p>
+                        <span class="achievement-tag"><i class="fa-solid fa-check-circle"></i> Completed Milestone</span>
+                    </div>
+                </div>
+
+                <!-- ACHIEVEMENT CARD 2 -->
+                <!-- EDIT HERE: Change details below -->
+                <div class="achievement-card">
+                    <div class="achievement-icon-box">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Technical Workshop & Fest Participation</h3>
+                        <p class="achievement-desc">
+                            Actively participated in college technical events, programming workshops, and web development symposiums at Vignan University.
+                        </p>
+                        <span class="achievement-tag"><i class="fa-solid fa-star"></i> Academic Engagement</span>
+                    </div>
+                </div>
+                <!-- ACHIEVEMENT CARD 3 -->
+                <!-- EDIT HERE: Change details below -->
+                <div class="achievement-card">
+                    <div class="achievement-icon-box">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Smart Agriculture agricultre-investment-calculator</h3>
+                        <p class="achievement-desc">
+                            Developed a Smart Agriculture Investment Calculator
+        using HTML, CSS, and JavaScript
+                        </p>
+                        <span class="achievement-tag"><i class="fa-solid fa-check-circle"></i> Completed Milestone</span>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 9. CAREER OBJECTIVE SECTION                               -->
+    <!-- EDIT HERE: Customize your vision & career goal statement  -->
+    <!-- ========================================================= -->
+    <section class="section objective-section" id="objective">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Career Vision</span>
+                <h2 class="section-title">Career Objective</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="objective-card-wrapper">
+                <div class="objective-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    
+                    <!-- EDIT HERE: Your Career Objective Text -->
+                    <blockquote class="objective-text">
+                        "As a motivated Information Technology B.Tech student, my goal is to enhance my programming skills in C, Java, and Python, master Data Structures, and build intuitive modern web applications. I seek to contribute effectively to software development teams in the IT sector while keeping myself rigorously prepared for competitive government job opportunities."
+                    </blockquote>
+                    
+                    <div class="objective-pillars">
+                        <div class="pillar-item">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Software Development</span>
+                        </div>
+                        <div class="pillar-item">
+                            <i class="fa-solid fa-lightbulb"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="pillar-item">
+                            <i class="fa-solid fa-landmark"></i>
+                            <span>IT & Govt Job Readiness</span>
+                        </div>
+                        <div class="pillar-item">
+                            <i class="fa-solid fa-book-open-reader"></i>
+                            <span>Continuous Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 10. CONTACT SECTION                                       -->
+    <!-- EDIT HERE: Email, LinkedIn, GitHub links, & location      -->
+    <!-- ========================================================= -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle-text">Feel free to reach out for collaborations, academic queries, or project discussions!</p>
+            </div>
+
+            <div class="contact-grid">
+                
+                <!-- Left Side: Contact Information Cards -->
+                <div class="contact-info-wrapper">
+                    
+                    <!-- Email Card -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email Address</h3>
+                            <!-- EDIT HERE: Your Email -->
+                            <p><a href="mailto:saidabhukya060@gmail.com">saidabhukya060@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <!-- LinkedIn Card -->
+                    <div class="contact-card">
+                        <div class="contact-icon icon-linkedin">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div>
+                            <h3>LinkedIn Profile</h3>
+                            <!-- EDIT HERE: Your LinkedIn URL -->
+                            <p><a href="https://www.linkedin.com/in/saida-bhukya-212aa3400?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">Saida Bhukya</a></p>
+                        </div>
+                    </div>
+
+                    <!-- GitHub Card -->
+                    <div class="contact-card">
+                        <div class="contact-icon icon-github">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <div>
+                            <h3>GitHub Profile</h3>
+                            <!-- EDIT HERE: Your GitHub URL -->
+                            <p><a href="https://github.com/saidabhukya" target="_blank" rel="noopener">github.com/saidabhukya</a></p>
+                        </div>
+                    </div>
+
+                    <!-- Location Card -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h3>Location / College</h3>
+                            <p>Vignan University, Vadlamudi, Guntur, Andhra Pradesh, India</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right Side: Interactive Contact Form -->
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" class="contact-form">
+                        <h3 class="form-title">Send Me a Message</h3>
+                        
+                        <div class="form-group">
+                            <label for="contact-name">Your Full Name <span class="required">*</span></label>
+                            <div class="input-with-icon">
+                                <i class="fa-solid fa-user input-icon"></i>
+                                <input type="text" id="contact-name" name="name" placeholder="Enter your full name" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-email">Your Email Address <span class="required">*</span></label>
+                            <div class="input-with-icon">
+                                <i class="fa-solid fa-envelope input-icon"></i>
+                                <input type="email" id="contact-email" name="email" placeholder="e.g. john@example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-subject">Subject <span class="required">*</span></label>
+                            <div class="input-with-icon">
+                                <i class="fa-solid fa-tag input-icon"></i>
+                                <input type="text" id="contact-subject" name="subject" placeholder="Project Inquiry / Hello" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-message">Message <span class="required">*</span></label>
+                            <textarea id="contact-message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fa-solid fa-paper-plane"></i> Send Message
+                        </button>
+
+                        <div id="form-response" class="form-response"></div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- FOOTER                                                    -->
+    <!-- ========================================================= -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="footer-logo">
+                    <span>BHUKYA SAIDA NAIK</span>
+                </a>
+                <p>Information Technology Student | Vignan University</p>
+            </div>
+
+            <!-- Footer Social Links -->
+            <div class="footer-socials">
+                <!-- EDIT HERE: Your email, LinkedIn, and GitHub links -->
+                <a href="saidabhukya060@gmail.com" class="social-icon" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/saida-bhukya-212aa3400?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/saidabhukya" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 BHUKYA SAIDA NAIK. All rights reserved. Designed for B.Tech Portfolio & GitHub Pages.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Floating Button -->
+    <button id="back-to-top" class="back-to-top-btn" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- ========================================================= -->
+    <!-- SMART AGRICULTURE CALCULATOR DEMO MODAL                   -->
+    <!-- ========================================================= -->
+    <div id="agri-modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-wheat-awn text-accent"></i> Smart Agriculture Investment Calculator</h3>
+                <button class="modal-close-btn" onclick="closeAgriCalculatorModal()">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <p class="modal-subtitle">Interactive demo of BHUKYA SAIDA NAIK's project application.</p>
+                
+                <form id="agri-calc-form" class="agri-form" onsubmit="event.preventDefault(); calculateAgriInvestment();">
+                    
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="crop-select"><i class="fa-solid fa-seedling"></i> Select Crop</label>
+                            <select id="crop-select" required>
+                                <option value="paddy">Paddy / Rice (₹25,000 / Acre)</option>
+                                <option value="cotton">Cotton (₹35,000 / Acre)</option>
+                                <option value="chilli">Chilli / Pepper (₹50,000 / Acre)</option>
+                                <option value="maize">Maize / Corn (₹20,000 / Acre)</option>
+                                <option value="other">Other / Mixed Crop (₹30,000 / Acre)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group half">
+                            <label for="land-acres"><i class="fa-solid fa-ruler-combined"></i> Land Area (Acres)</label>
+                            <input type="number" id="land-acres" min="0.5" step="0.5" value="2" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="field-type"><i class="fa-solid fa-mountain"></i> Field / Soil Type</label>
+                            <select id="field-type" required>
+                                <option value="irrigated">Irrigated Land (Standard Cost)</option>
+                                <option value="dry">Dry / Rainfed Land (+10% Fertilizer/Water)</option>
+                                <option value="black">Black Cotton Soil (Standard Cost)</option>
+                                <option value="red">Red Soil (+5% Soil Prep)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group half">
+                            <label for="labor-cost"><i class="fa-solid fa-users"></i> Estimated Labor Cost (₹)</label>
+                            <input type="number" id="labor-cost" value="8000" min="0" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="machinery-cost"><i class="fa-solid fa-tractor"></i> Tractor & Machinery (₹)</label>
+                            <input type="number" id="machinery-cost" value="6000" min="0" required>
+                        </div>
+
+                        <div class="form-group half">
+                            <label for="pesticide-cost"><i class="fa-solid fa-bottle-droplet"></i> Seeds & Fertilizers (₹)</label>
+                            <input type="number" id="pesticide-cost" value="10000" min="0" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fa-solid fa-calculator"></i> Calculate Total Investment
+                    </button>
+                </form>
+
+                <!-- Result Box -->
+                <div id="agri-result-box" class="agri-result-box" style="display: none;">
+                    <h4><i class="fa-solid fa-chart-pie"></i> Agricultural Investment Summary</h4>
+                    
+                    <div class="result-details">
+                        <div class="result-item">
+                            <span>Base Crop & Land Cost:</span>
+                            <strong id="res-base-cost">₹0</strong>
+                        </div>
+                        <div class="result-item">
+                            <span>Labor & Machinery:</span>
+                            <strong id="res-operational-cost">₹0</strong>
+                        </div>
+                        <div class="result-item">
+                            <span>Seeds, Fertilizers & Misc:</span>
+                            <strong id="res-material-cost">₹0</strong>
+                        </div>
+                        <div class="result-item total-item">
+                            <span>Estimated Total Investment:</span>
+                            <strong id="res-total-cost" class="text-accent">₹0</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-secondary btn-sm" onclick="closeAgriCalculatorModal()">Close Demo</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
